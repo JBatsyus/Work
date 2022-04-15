@@ -211,7 +211,10 @@
                   </div>
                   <div class="modal-body">
                     <form>
-                      <div class="form-row">
+                      <div
+                        class="form-row"
+                        style="justify-content: space-around"
+                      >
                         <div class="form-group col-md-5">
                           <label for="inputState" style="font-weight: bold"
                             >Шаблон</label
@@ -230,7 +233,10 @@
                             <option>...</option>
                           </select>
                         </div>
-                        <div class="form-group col-md-8">
+                      </div>
+
+                      <div class="form-row" style="justify-content: center">
+                        <div class="form-group col-md-9">
                           <label
                             for="formGroupExampleInput"
                             style="font-weight: bold"
@@ -261,7 +267,7 @@
                           </button>
                         </div>
                       </div>
-                      <div class="form-row">
+                      <div class="form-row" style="margin-left: 30px">
                         <div class="col-md-2">
                           <img
                             src="./assets/images/warning-svg.svg"
@@ -275,20 +281,36 @@
                           В названии домена разрешены латиница и “-”,
                           запрещается использовать словосочетание Work 5. После
                           создания магазина Вы сможете прикрутить свой домен
-                          (например ivangrozniy.ru). Подробнее по ссылке
+                          (например ivangrozniy.ru). Подробнее по
+                          <a
+                            href="https://histrf.ru/read/biographies/ivan-iv-groznyi"
+                            >ссылке</a
+                          >
                         </div>
                       </div>
                     </form>
                   </div>
-                  <div class="modal-footer">
+                  <div
+                    class="modal-footer"
+                    style="justify-content: flex-start; margin-left: 30px"
+                  >
                     <button
                       type="button"
-                      class="btn btn-secondary"
+                      class="btn btn-secondary btn-m"
                       data-dismiss="modal"
+                      style="width: 152px; height: 37px"
                     >
                       Отмена
                     </button>
-                    <button type="button" class="btn btn-success btn-m">
+                    <button
+                      type="button"
+                      class="btn btn-success btn-m"
+                      style="
+                        background-color: #55c97b;
+                        width: 152px;
+                        height: 37px;
+                      "
+                    >
                       Создать
                     </button>
                   </div>
