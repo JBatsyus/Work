@@ -1,16 +1,14 @@
 body {
+  height: 100%;
   font-family: "Roboto", sans-serif;
 }
 
-body {
-  height: 100%;
-}
 .imgCustom {
   margin-right: 30px;
+  width: 20px;
+  height: 20px;
 }
-.rowCust {
-  margin: 1% auto;
-}
+
 .logo-Cust {
   margin: 5%;
 }
@@ -20,13 +18,16 @@ body {
   color: #7d7d7d;
   font-weight: 500;
   font-family: "Roboto";
+  padding-top: 25px;
 }
 .content-custom {
   background-color: #f8faff;
+  padding-top: 20px;
 }
 .content__box {
-  padding-left: 50px;
+  padding-left: 40px;
 }
+
 a {
   color: #4e5052;
   color: inherit;
@@ -57,6 +58,9 @@ a:hover {
   padding-right: 10px;
 }
 
+.title_content {
+  margin-left: 16px;
+}
 .col_tbl {
   font-size: 15px;
   color: #343434;
